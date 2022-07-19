@@ -19,6 +19,14 @@ public class stringMethods {
 	System.out.println(s3[2]);
 	System.out.println("repalced " +s.replace("l", "j"));
 	System.out.println("uppercase:" + s.toUpperCase());
+	System.out.println("Creating buiderstring:");
+	StringBuilder a = new StringBuilder("hey ");
+	String b= "i am fine";
+	a.append("oh");
+	System.out.println(a);
+	System.out.println(a.delete(0,2));
+	System.out.println(a.reverse());
+	
 	
 	}
 	
